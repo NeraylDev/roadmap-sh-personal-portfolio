@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+header{
+    font-family: 'Teachers';
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+}
+
+#logo{
+    width: 50%;
+}
+
+header nav{
+    width: 50%;
+    text-align: end;
+}
+
+body{
+    font-family: 'Teachers';
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    display: block;
+    margin: 5%;
+}
+
+#about-article{
+    display: flex;
+}
+
+.home-main-projects{
+    display: inline-flex;
+}
+
+@media screen and (max-width: 800px) {
+    .home-main-projects{
+        display: block;
+    }
+
+    #about-article{
+        display: block;
+    }
+}
+
+.project-article{
+    display: inline-flex;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
