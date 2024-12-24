@@ -1,57 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
-header{
-    font-family: 'Teachers';
+nav{
     width: 100%;
     display: flex;
     align-content: space-between;
 }
 
-#logo{
+
+#nav-logo{
     width: 50%;
 }
 
-header nav{
+
+#nav-links{
     width: 50%;
     text-align: end;
 }
 
+
 body{
-    font-family: 'Teachers';
+    margin: auto 10%;
 }
+/*
 
 h1{
     text-align: center;
 }
 
+
 section{
     display: block;
-    margin: 5%;
 }
+
 
 #about-article{
     display: flex;
 }
 
+
 .home-main-projects{
     display: inline-flex;
 }
 
-@media screen and (max-width: 800px) {
-    .home-main-projects{
-        display: block;
-    }
 
-    #about-article{
-        display: block;
-    }
-}
-
-.project-article{
+.project-card{
     display: inline-flex;
 }
+
 
 img{
     max-width: 100%;
     height: auto;
 }
+
+
+@media screen and (max-width: 800px) {
+
+.home-main-projects{
+    display: block;
+}
+
+
+#about-article{
+    display: block;
+}
+
+
+}*/
