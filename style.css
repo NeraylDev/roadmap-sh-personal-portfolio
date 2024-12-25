@@ -1,26 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
-nav{
+
+body {
+    margin: 0 0;
+    background-color: #353539;
+}
+
+/* '*' is used as an universal selector */
+* {
+    color: #DBAC62;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border: 5px solid #DBAC62;
+}
+
+#main-nav {
     width: 100%;
+    background-color: #807B3F;
     display: flex;
     align-content: space-between;
 }
 
 
-#nav-logo{
+#nav-logo {
     width: 50%;
 }
 
+#nav-logo img {
+    border: none;
+}
 
-#nav-links{
+
+#nav-links {
     width: 50%;
+    height: auto;
     text-align: end;
 }
 
 
-body{
-    margin: auto 10%;
+footer {
+    background-color: #604A40;
 }
+
+
+#home-main-projects {
+    width: 80%;
+    background-color: #807B3F;
+    display: inline-flex;
+}
+
+.project-panel {
+    display: inline-flex;
+}
+
 /*
 
 h1{
