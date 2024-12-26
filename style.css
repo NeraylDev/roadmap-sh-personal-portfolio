@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
 
 body {margin: 0 0; background: #353539 url(images/main-background.png) fixed no-repeat;}
 
 /* '*' is used as an universal selector */
 * {
-    font-family: 'Teachers';
+    font-family: 'Afacad';
     color: #DBAC62;
 }
 
@@ -130,19 +130,25 @@ footer section{
     width: 100%;
 }
 
-#projects table td{
+#projects table td {
     width: 50%;
 }
 
 #projects article.project-panel{
     display: flex;
+    margin-bottom: 32px;
 
     h2 {
+        text-transform: uppercase;
         transition: 0.2s;
     }
 
     img {
+        min-width: 50%;
         max-width: 50%;
+        height: 224px;
+        object-fit: cover;
+        object-position: center;
         filter: drop-shadow(-10px 10px rgba(0, 0, 0, 0.25));
         transition: 0.2s;
     }
@@ -164,7 +170,8 @@ footer section{
 
 
 #projects article.project-panel aside {
-    margin: 0 24px;
+    margin-left: 24px;
+    margin-right: 64px;
 }
 
 @media screen and (max-width:1250px) {
